@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet"; // Import Helmet for SEO
 import Greatlogo from './Certificate/images.png';
 import Udemylogo from './Certificate/pngwing.com.png';
 import Microsoftlogo from './Certificate/pngwing.com (1).png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import Resume from '../Cv/abi.pdf';
 
 function Resume() {
 
@@ -14,7 +14,21 @@ function Resume() {
 
   return (
     <div className='flex justify-center items-center mt-[5vh]'>
+
+      <Helmet>
+        <title>Abi Nandhan - React Developer | Resume</title>
+        <meta name="description" content="Abi Nandhan is an experienced frontend React Developer specializing in responsive web applications with Tailwind CSS and JavaScript." />
+        <meta name="keywords" content="React Developer, Frontend Developer, Web Development, Tailwind CSS, UI/UX, JavaScript, Resume" />
+      </Helmet>
+
       <div className='md:w-[70%] w-[95%] mt-11'>
+
+        {/* Resume Header */}
+        <header className="text-center">
+          <h1 className="text-4xl font-bold">Abi Nandhan</h1>
+          <p>Chennai, India | <a href="mailto:abinandhan77@gmail.com" className="text-blue-400">abinandhan77@gmail.com</a></p>
+        </header>
+
 
         <div className='flex justify-start' >
 
@@ -212,7 +226,7 @@ function Resume() {
               <p class="text-lg font-bold"> TailwindCSS </p>
               <div class="py-3">
                 <p class="text-gray-400 text-sm">
-                Great Learning
+                  Great Learning
                 </p>
               </div>
               <div class="flex justify-end">
