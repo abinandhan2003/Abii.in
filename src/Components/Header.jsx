@@ -17,12 +17,12 @@ function Header() {
         {/* Open Graph Metadata for social media sharing */}
         <meta property="og:title" content="Abi Nandhan | Frontend React Developer" />
         <meta property="og:description" content="Explore Abi Nandhan’s portfolio showcasing web development skills, projects, and experience." />
-        <meta property="og:image" content="https://yourportfolio.com/og-image.jpg" />
-        <meta property="og:url" content="https://yourportfolio.com" />
+        <meta property="og:image" content="https://x.com/abiwebdev003/photo" />
+        <meta property="og:url" content="https://abii.in/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Abi Nandhan | Frontend Developer" />
         <meta name="twitter:description" content="Portfolio of Abi Nandhan, a frontend React developer." />
-        <meta name="twitter:image" content="https://yourportfolio.com/og-image.jpg" />
+        <meta name="twitter:image" content="https://x.com/abiwebdev003/photo" />
 
         {/* Structured Data for better Google search ranking */}
         <script type="application/ld+json">
@@ -31,11 +31,12 @@ function Header() {
             "@type": "Person",
             "name": "Abi Nandhan",
             "jobTitle": "Frontend React Developer",
-            "url": "https://yourportfolio.com",
+            "url": "https://abii.in/",
             "sameAs": [
-              "https://www.linkedin.com/in/yourprofile",
-              "https://github.com/yourprofile",
-              "https://twitter.com/yourprofile"
+              "https://www.linkedin.com/in/abi-web-nandhan/",
+              "https://github.com/abinandhan2003",
+              "https://x.com/abiwebdev003",
+              "https://x.com/abiwebdev003/photo"
             ]
           })}
         </script>

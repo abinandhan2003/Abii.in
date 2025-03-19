@@ -90,7 +90,7 @@ function Home() {
 
           {/* Twitter Profile */}
           <a
-            href="https://x.com/Abiweb001"
+            href="https://x.com/abiwebdev003"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit Abi Nandhan's Twitter Profile"
