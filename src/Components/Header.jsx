@@ -17,7 +17,7 @@ function Header() {
         {/* Open Graph Metadata for social media sharing */}
         <meta property="og:title" content="Abi Nandhan | Frontend React Developer" />
         <meta property="og:description" content="Explore Abi Nandhan’s portfolio showcasing web development skills, projects, and experience." />
-        <meta property="og:image" content="https://x.com/abiwebdev003/photo" />
+        <meta property="og:image" content="https://surli.cc/nnbptz" />
         <meta property="og:url" content="https://abii.in/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Abi Nandhan | Frontend Developer" />
@@ -36,7 +36,7 @@ function Header() {
               "https://www.linkedin.com/in/abi-web-nandhan/",
               "https://github.com/abinandhan2003",
               "https://x.com/abiwebdev003",
-              "https://x.com/abiwebdev003/photo"
+              "https://surli.cc/nnbptz"
             ]
           })}
         </script>
