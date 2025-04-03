@@ -61,9 +61,9 @@ function Header() {
           <a href="/#about" className='text-black hover:font-semibold transition-all duration-500 text-lg'>
             <div>About</div>
           </a>
-          <a href="/#project" className='text-black hover:font-semibold transition-all duration-500 text-lg'>
+          <Link to="/projects" className='text-black hover:font-semibold transition-all duration-500 text-lg'>
             <div>Project</div>
-          </a>
+          </Link>
           <a href="/#skills" className='text-black hover:font-semibold transition-all duration-500 text-lg'>
             <div>Skills</div>
           </a>

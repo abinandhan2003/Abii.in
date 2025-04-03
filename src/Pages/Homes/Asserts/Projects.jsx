@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { motion } from "framer-motion";
 const project = [
+  
   {
     title: "Background Remover",
     description: "Remove Image Backgrounds automatically in Seconds and for Free.",
@@ -30,15 +31,22 @@ function Projects() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center bg-white min-h-screen py-12 px-4">
-      <div className='text-3xl font-bold text-gray-800'>
+    <div className="flex flex-col items-center bg-white min-h-screen py-12 px-4"
+    
+    >
+      <div className='text-3xl font-bold text-gray-800'
+      data-aos="fade-up" data-aos-duration="1500"
+      >
         My projects
       </div>
-      <div className='mb-16 mt-4 text-gray-600 text-center'>
-        for project related queries contact admin@abii.in  <Link to="/projects" className="text-blue-600 hover:underline">projects page</Link>.
+      <div className='mb-16 mt-4 text-gray-600 text-center'
+      data-aos="fade-up" data-aos-duration="1500"
+      >
+        for project related queries contact <b>admin@abii.in</b>  <Link to="/projects" className="text-blue-600 hover:underline">projects page</Link>.
       </div>
       <div className="w-full max-w-6xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        data-aos="fade-left">
           {project.map((project, index) => (
             <motion.div
               key={index}
