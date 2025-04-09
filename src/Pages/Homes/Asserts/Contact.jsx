@@ -18,7 +18,7 @@ function Contact() {
         };
     
         try {
-            const response = await fetch('http://localhost:5678/webhook-test/contact-form', {
+            const response = await fetch('http://localhost:5678/webhook/contact-form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
