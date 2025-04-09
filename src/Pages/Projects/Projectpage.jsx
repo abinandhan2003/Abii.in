@@ -27,7 +27,7 @@ function Projectpage() {
       {
         title: "Weather Application",
         description: "A simple weather application that provides current weather information.",
-        link: "https://darkhubs.netlify.app/",
+        link: "https://abi-weather.netlify.app/",
         image: require('../images/weather.png') // Updated to use require for local image
       },
       {
