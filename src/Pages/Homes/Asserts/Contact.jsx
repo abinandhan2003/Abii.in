@@ -35,7 +35,7 @@ function Contact() {
             console.error('Error:', error);
             alert('An unexpected error occurred.');
         }
-    };
+    };  
 
     return (
         <div className='w-full h-full p-5 flex justify-center items-center' id='contact'>

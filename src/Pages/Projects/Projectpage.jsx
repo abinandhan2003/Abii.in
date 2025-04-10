@@ -15,7 +15,7 @@ function Projectpage() {
       {
         title: "Ai Chatbot",  
         description: "A creative and interactive project designed to improve user experience.",
-        link: "https://example.com/project-two",
+        link: "https://lucy.abii.in/",
         image: require('../images/lucy.png') // Updated to use require for local image
       },
       {
