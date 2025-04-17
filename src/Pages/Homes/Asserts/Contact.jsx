@@ -72,13 +72,13 @@ function Contact() {
                         data-aos-duration="1500"
                     >
                         <div className='text-center'>HAY ABI, MY NAME IS</div>
-                        <input type="text" name="name" className='w-full h-7 border border-black mt-2' required />
+                        <input type="text" name="name" className='w-full px-2 h-7 border border-black mt-2' required />
 
                         <div className='text-center mt-2'>MY EMAIL ADDRESS IS</div>
-                        <input type="email" name="email" className='w-full h-7 border border-black mt-2' required />
+                        <input type="email" name="email" className='w-full px-2 h-7 border border-black mt-2' required />
 
                         <div className='text-center'>MY MESSAGE TO YOU</div>
-                        <textarea name="content" className='w-full h-24 resize-y border border-black mt-2' required></textarea>
+                        <textarea name="content" className='w-full px-2 h-24 resize-y border border-black mt-2' required></textarea>
 
                         <div className='w-full flex justify-center items-center'>
                             <button type="submit" className='bg-black text-white mb-10 flex justify-center items-center py-3 px-2 mt-2'>
