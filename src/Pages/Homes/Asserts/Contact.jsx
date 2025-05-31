@@ -41,7 +41,7 @@ function Contact() {
         <div className='w-full h-full p-5 flex justify-center items-center' id='contact'>
             <div className='md:w-[60%] w-full mt-10'>
                 <div className='text-3xl text-center text-gray-600' data-aos="fade-up" data-aos-duration="1500">
-                    GET IN TOUCH
+                    GET IN TOUCH !
                 </div>
 
                 <div className='mt-10' data-aos="fade-up" data-aos-duration="1500">
