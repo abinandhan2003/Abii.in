@@ -18,7 +18,7 @@ function Contact() {
         };
     
         try {
-            const response = await fetch('https://primary-production-e8e26.up.railway.app/webhook/contact-form', {
+            const response = await fetch('https://primary-production-9712.up.railway.app/webhook/1cf631e7-2874-44d8-bf73-3bed51bf5d61', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

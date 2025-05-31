@@ -42,6 +42,7 @@ function Projectpage() {
         link: "https://skywebs.netlify.app/",
         image: require('../images/skyweb.png') // Updated to use require for local image
       }
+  
     ];
     ;
 
