@@ -28,6 +28,7 @@ function Contact() {
     
             if (response.ok) {
                 alert('Your message has been sent successfully!');
+                e.target.reset();
             } else {
                 alert('There was an error sending your message.');
             }
