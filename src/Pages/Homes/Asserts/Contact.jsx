@@ -18,7 +18,7 @@ function Contact() {
         };
     
         try {
-            const response = await fetch('https://server.abii.in/webhook-test/c2221518-5d6d-4840-a193-53517673eef3', {
+            const response = await fetch('https://server.abii.in/webhook/c2221518-5d6d-4840-a193-53517673eef3', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
